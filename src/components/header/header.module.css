@@ -1,0 +1,56 @@
+.wrapper {
+    width: 100%;
+    background-color: rgb(24, 61, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
+
+.logoBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.logoText {
+    margin: 10px 0 0 0;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    max-width: 165px;
+    text-wrap: wrap;
+    font-size: 10px;
+    text-align: left;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactsBar {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
