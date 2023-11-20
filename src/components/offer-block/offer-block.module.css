@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.title {
+   max-width: 291px;
+   text-wrap: wrap;
+   font-size: 18px;
+}
+
+.accent {
+    background: -webkit-linear-gradient(var(--colors-interface-accent), var(--colors-interface-accent-text));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gridZone {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(164px, 1fr));
+}
