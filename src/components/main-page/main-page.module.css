@@ -1,7 +1,46 @@
 .wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 69px;
+    text-align: left;
+}
+
+.title {
+    max-width: 362px;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.accent {
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    background: -webkit-linear-gradient(left, var(--colors-interface-accent), 
+    var(--colors-interface-accent), 
+    var(--colors-interface-accent-variant),
+    var(--colors-interface-accent-variant));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 275px;
+    text-wrap: wrap;
 }

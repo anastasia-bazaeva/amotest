@@ -3,21 +3,46 @@
     flex-direction: column;
     text-align: right;
     align-items: flex-end;
+    gap: 40px;
 }
 
 .title {
    max-width: 291px;
    text-wrap: wrap;
    font-size: 18px;
+   margin: 0;
+}
+
+.semiTitle {
+    font-size: 18px;
+    text-wrap: wrap;
+    font-weight: 500;
+    margin: 0 0 6px;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-wrap: wrap;
+    max-width: 140px;
+    margin: 0;
 }
 
 .accent {
-    background: -webkit-linear-gradient(var(--colors-interface-accent), var(--colors-interface-accent-text));
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background: -webkit-linear-gradient(left, var(--colors-interface-accent), 
+    var(--colors-interface-accent-text), 
+    var(--colors-interface-accent), 
+    var(--colors-interface-accent-text));
+    color: transparent;
+    -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    }
 }
 
 .gridZone {
     display: grid;
-    grid-template-columns: repeat(2, minmax(164px, 1fr));
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 30px;
+    margin: 0 0 20px;
 }

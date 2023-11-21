@@ -16,7 +16,7 @@ export const Header = () => {
                 <ul className={styles.navMenu}>
                     {navLinks.map((link) => {
                         return(
-                            <li>
+                            <li key={navLinks.indexOf(link)}>
                                 <NavLink to={link.link}>{link.name}</NavLink>
                             </li>
                         )
