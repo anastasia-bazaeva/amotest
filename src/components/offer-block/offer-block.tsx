@@ -1,4 +1,5 @@
-import { Button, ButtonType } from '../../ui/button/button'
+import { Button } from '../../ui/button/button'
+import { ButtonType } from '../../ui/button/types'
 import styles from './offer-block.module.css'
 
 export const OfferBlock = () => {

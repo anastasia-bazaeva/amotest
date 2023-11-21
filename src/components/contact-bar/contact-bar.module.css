@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 47px;
     list-style: none;
+    margin: 0;
 }
 
 .navMenu {

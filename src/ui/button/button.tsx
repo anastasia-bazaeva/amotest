@@ -1,10 +1,5 @@
 import styles from './button.module.css'
-
-export enum ButtonType {
-    default = 'button',
-    reset = 'reset',
-    sumbit = 'submit',
-}
+import { ButtonType } from './types';
 
 interface ButtonProps {
     text: string;

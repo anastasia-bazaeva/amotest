@@ -4,6 +4,8 @@
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  padding: 0;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --colors-interface-white: #E4E5EA;
@@ -30,7 +32,7 @@ a:hover {
 body {
   margin: 0;
   background-color: var(--colors-interface-black);
-  padding: 45px 150px 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -45,6 +47,7 @@ body {
   scrollbar-width: thin;
   display: flex;
   min-height: calc(100vh - 45px);
+  padding: 45px 150px 0;
 }
 
 main {

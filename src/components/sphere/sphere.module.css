@@ -1,0 +1,52 @@
+.sphere {
+    border-radius: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.medium {
+    height: 60px;
+    width: 60px;
+    background: radial-gradient(at 20px 20px, #ECD0FF, #A15DCF, #7631A4, #561880);
+    filter: blur(4px) drop-shadow(3px 4px rgba(177, 118, 217, 0.25)) opacity(35%);
+    left: 65%;
+    top: -50px;
+}
+
+.small {
+    height: 28px;
+    width: 28px;
+    background: radial-gradient(at 4px 4px, #FFD0D0, #D45D5D, #A73131, #821919);
+    filter: blur(5px) drop-shadow(3px 6px rgba(223, 125, 125, 0.25)) opacity(35%);
+    left: 60%;
+    top: 85%;
+}
+
+.big{
+    height: 83px;
+    width: 83px;
+    background: radial-gradient(at 25px 25px, #FFD0D0, #D45D5D, #A73131, #821919);
+    filter: blur(0.5px) drop-shadow(3px 6px rgba(223, 125, 125, 0.10)) opacity(35%);
+    left: 33%;
+    top: 45%; 
+}
+
+.huge{
+    height: 259px;
+    width: 259px;
+    background-color: #833AB4;
+    /* на макете размытие 392, но с ним получается непохоже */
+    filter: blur(292px);
+    left: 50%;
+    top: -150px;
+}
+
+.giant{
+    height: 311px;
+    width: 311px;
+    background-color: #961A1A;
+    /* на макете размытие 392, но с ним получается непохоже */
+    filter: blur(292px) opacity(50%);
+    left: -150px;
+    top: 100px;
+}

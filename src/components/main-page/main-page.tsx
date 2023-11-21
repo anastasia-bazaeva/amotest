@@ -1,4 +1,6 @@
 import { OfferBlock } from '../offer-block/offer-block'
+import { Sphere } from '../sphere/sphere'
+import { SphereType } from '../sphere/types'
 import styles from './main-page.module.css'
 
 export const MainPage = () => {
@@ -10,6 +12,8 @@ export const MainPage = () => {
                 <p className={styles.text}>Развиваем и контролируем продажи за вас</p>
             </div>
             <OfferBlock />
+            <Sphere type={SphereType.small}/>
+            <Sphere type={SphereType.giant}/>
         </section>
     )
 }
