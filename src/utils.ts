@@ -10,10 +10,31 @@ export const phoneIcon = phone;
 export const tgIcon = tg;
 export const waIcon = wa;
 
-export const navLinks = [
+export const navLinksHeader = [
     { link: '/', name: 'Услуги' },
     { link: '/', name: 'Виджеты' },
     { link: '/', name: 'Интеграции' },
     { link: '/', name: 'Кейсы' },
     { link: '/', name: 'Сертификаты' },
+]
+
+export const navLinksAbout= [
+    { link: '/', name: 'Партнерская программа' },
+    { link: '/', name: 'Вакансии' },
+]
+
+export const navLinksFooterColumn1 = [
+    { link: '/', name: 'Расчет стоимости' },
+    { link: '/', name: 'Услуги' },
+    { link: '/', name: 'Виджеты' },
+    { link: '/', name: 'Интеграции' },
+    { link: '/', name: 'Наши клиенты' },
+]
+
+export const navLinksFooterColumn2 = [
+    { link: '/', name: 'Кейсы' },
+    { link: '/', name: 'Благодарственные письма' },
+    { link: '/', name: 'Сертификаты' },
+    { link: '/', name: 'Блог на Youtube' },
+    { link: '/', name: 'Вопрос/Ответ' },
 ]

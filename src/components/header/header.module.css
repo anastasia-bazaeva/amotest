@@ -48,9 +48,3 @@
     font-size: 16px;
     font-weight: 400;
 }
-
-.contactsBar {
-    display: flex;
-    flex-direction: row;
-    gap: 47px;
-}

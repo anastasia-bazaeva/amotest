@@ -3,7 +3,7 @@ import styles from './offer-block.module.css'
 
 export const OfferBlock = () => {
     const handleClick = () => {
-
+        console.log('click')
     }
     return (
         <div className={styles.wrapper}>

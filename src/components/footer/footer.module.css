@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.columnBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    gap: 98px;
+    text-align: left;
+}
+
+.columnList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--colors-interface-dark-primary);
+    text-align: right;
+}
+
+.creditsBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.creditsText {
+    margin: 0;
+}
+
+.creditsLink {
+    text-decoration: underline;
+    margin: 0;
+}

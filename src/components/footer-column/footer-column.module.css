@@ -1,0 +1,21 @@
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--colors-interface-dark-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noTitleList {
+    justify-content: flex-end;
+}
+
+.linkText {
+    font-size: 16px;
+    font-weight: 400;
+}
+.topLink{
+    margin-top: 10px;
+}
