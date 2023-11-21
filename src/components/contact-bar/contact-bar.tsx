@@ -17,7 +17,7 @@ export const ContactBar = ({position}:ContactBarProps) => {
 
     return (
         <ul className={barStyle}>
-            <li><Link to='tel:+75555555'>+7 555 555-55-55</Link></li>
+            <li className={styles.tel}><Link to='tel:+75555555'>+7 555 555-55-55</Link></li>
             <li><ul className={iconsStyle}>
                 <li><NavLink to='/'><img src={tgIcon} alt='иконка для связи через Telegram'/></NavLink></li>
                 <li><NavLink to='/'><img src={phoneIcon} alt='иконка для связи по телефону'/></NavLink></li>

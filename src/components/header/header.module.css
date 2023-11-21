@@ -49,3 +49,26 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1024px) {
+    .logoBar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lastLink {
+        display: none;
+    }
+    .wrapper {
+        background-color: var(--colors-interface-black);
+        padding: 25px 16px;
+        justify-content: center;
+        margin: 0 0 40px;
+    }
+    .navMenu {
+        text-transform: uppercase;
+        font-size: 12px;
+        gap: 16px;
+    }
+}

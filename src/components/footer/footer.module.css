@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 33px;
+    box-sizing: border-box;
 }
 
 .columnBar {
@@ -41,4 +42,47 @@
 .creditsLink {
     text-decoration: underline;
     margin: 0;
+}
+
+.mobile {
+    max-height: 137px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 98px;
+}
+
+@media screen and (max-width: 1060px) {
+    .navBar {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .navBar {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .columnBar{
+        flex-wrap: wrap;
+    }
+    .columnList {
+        margin-top: 30px;
+        align-self: left;
+        justify-self: left;
+        text-align: left;
+    }
+    .creditsBar {
+        align-self: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        background-color: var(--colors-interface-black);
+        padding: 45px 16px;
+    }
 }

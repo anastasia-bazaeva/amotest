@@ -19,3 +19,21 @@
 .topLink{
     margin-top: 10px;
 }
+
+@media screen and (max-width: 910px) {
+    .navList:first-of-type {
+        flex-basis: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navList:first-of-type {
+        flex-basis: 600px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navList:nth-child(2), .navList:nth-child(3) {
+        max-width: 125px;
+    }
+}

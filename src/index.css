@@ -58,3 +58,9 @@ main {
 footer {
   flex: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .root, #root {
+      padding: 0;
+  }
+}

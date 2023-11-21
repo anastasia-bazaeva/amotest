@@ -46,3 +46,31 @@
     gap: 30px;
     margin: 0 0 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .accent {
+        @supports (background-clip: text) or (-webkit-background-clip: text) {
+            background: -webkit-linear-gradient(left, var(--colors-interface-accent), 
+            var(--colors-interface-accent-text),
+            var(--colors-interface-accent));
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-transform: lowercase;
+            }
+    }
+    .title {
+        text-align: left;
+    }
+    .wrapper {
+        align-items: flex-start;
+    }
+    .gridZone {
+        text-align: left;
+        gap: 15px;
+    }
+    .semiTitle {
+        margin: 0;
+        font-size: 13px;
+    }
+}
