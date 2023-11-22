@@ -33,6 +33,7 @@
     .navList:first-of-type {
         flex-basis: 600px;
     }
+
 }
 
 @media screen and (max-width: 500px) {

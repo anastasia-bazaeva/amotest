@@ -75,13 +75,9 @@
     }
     .columnList {
         margin-top: 30px;
-        align-self: left;
-        justify-self: left;
         text-align: left;
     }
     .creditsBar {
-        align-self: flex-start;
-        align-items: flex-start;
         text-align: left;
     }
 }
