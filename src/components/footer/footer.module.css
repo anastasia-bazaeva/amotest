@@ -20,6 +20,8 @@
 }
 
 .columnList {
+    font-family: 'Inter';
+    font-weight: 700;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -37,11 +39,15 @@
 
 .creditsText {
     margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
 }
 
 .creditsLink {
     text-decoration: underline;
     margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
 }
 
 .mobile {
@@ -84,5 +90,10 @@
     .wrapper {
         background-color: var(--colors-interface-black);
         padding: 45px 16px;
+    }
+    .columnList {
+        font-size: 12px;
+        letter-spacing: 0.05rem;
+        gap: 5px;
     }
 }

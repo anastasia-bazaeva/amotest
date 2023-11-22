@@ -11,17 +11,18 @@
    text-wrap: wrap;
    font-size: 18px;
    margin: 0;
+   font-family: 'Inter';
+   font-weight: 400;
 }
 
 .semiTitle {
     font-size: 18px;
     text-wrap: wrap;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 0 6px;
 }
 
 .text {
-    font-family: 'Montserrat';
     font-size: 16px;
     text-wrap: wrap;
     max-width: 140px;
@@ -37,6 +38,8 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    font-family: 'Inter';
+    font-weight: 700;
     }
 }
 
@@ -45,6 +48,7 @@
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     gap: 30px;
     margin: 0 0 20px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 600px) {
@@ -66,11 +70,24 @@
         align-items: flex-start;
     }
     .gridZone {
+        grid-template-columns: repeat(2, minmax(min-content, auto));
         text-align: left;
         gap: 15px;
+        column-gap: 10px;
+        letter-spacing: 0.05rem;
     }
     .semiTitle {
         margin: 0;
         font-size: 13px;
+        max-width: fit-content;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .title{
+        font-size: 16px;
+    }
+    .semiTitle {
+        font-size: 11px;
     }
 }

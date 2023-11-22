@@ -1,5 +1,6 @@
 .wrapper {
     width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,6 +8,7 @@
     margin-bottom: 69px;
     text-align: left;
     position: relative;
+    row-gap: 45px;
 }
 
 .title {
@@ -14,6 +16,7 @@
     font-size: 48px;
     font-weight: 400;
     margin: 0;
+    font-family: 'Inter';
 }
 
 .accent {
@@ -26,12 +29,14 @@
     -webkit-background-clip: text;
     background-clip: text;
     margin: 0;
+    font-family: 'Inter';
     font-size: 48px;
     font-weight: 900;
     }
 }
 
 .column {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -52,7 +57,6 @@
         margin-bottom: 0;
         flex-direction: column;
         align-items: flex-start;
-        gap: 45px;
         overflow: hidden;
     }
     .title {

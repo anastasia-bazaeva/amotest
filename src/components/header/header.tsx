@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import styles from './header.module.css';
 import { mainLogo1, mainLogo2, navLinksHeader } from '../../utils';
 import { ContactBar, Position } from '../contact-bar/contact-bar';
-import { Sphere } from '../sphere/sphere';
-import { SphereType } from '../sphere/types';
 
 export const Header = () => {
     const [width, setWidth] = useState(window.innerWidth);
@@ -42,9 +40,6 @@ export const Header = () => {
                 </ul>
             </div>
             {!isSmall && <ContactBar position={Position.header} />}
-            <Sphere type={SphereType.medium}/>
-            <Sphere type={SphereType.big}/>
-            <Sphere type={SphereType.huge}/>
         </header>
     )
 }

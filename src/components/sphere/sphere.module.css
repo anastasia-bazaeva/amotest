@@ -10,7 +10,7 @@
     background: radial-gradient(at 20px 20px, #ECD0FF, #A15DCF, #7631A4, #561880);
     filter: blur(4px) drop-shadow(3px 4px rgba(177, 118, 217, 0.25)) opacity(35%);
     left: 65%;
-    top: -50px;
+    top: -200px;
 }
 
 .small {
@@ -28,7 +28,7 @@
     background: radial-gradient(at 25px 25px, #FFD0D0, #D45D5D, #A73131, #821919);
     filter: blur(0.5px) drop-shadow(3px 6px rgba(223, 125, 125, 0.10)) opacity(35%);
     left: 33%;
-    top: 45%; 
+    top: -130px; 
 }
 
 .huge{
@@ -38,7 +38,7 @@
     /* на макете размытие 392, но с ним получается непохоже */
     filter: blur(292px);
     left: 50%;
-    top: -150px;
+    top: -350px;
 }
 
 .giant{
@@ -63,12 +63,12 @@
         height: 40px;
         width: 40px;
         background: radial-gradient(at 10px 8px, #ECD0FF, #A15DCF, #7631A4, #561880);
-        left: 90%;
-        top: 400px;
+        left: 88%;
+        top: 300px;
     }
     .huge {
         left: 70%;
-        top: 200px;
+        top: 100px;
     }
 
     .giant {

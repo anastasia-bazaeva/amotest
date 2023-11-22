@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.error{
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background: -webkit-linear-gradient(left, var(--colors-interface-accent), 
+        var(--colors-interface-accent), 
+        var(--colors-interface-accent-variant),
+        var(--colors-interface-accent-variant));
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        margin: 0;
+        font-family: 'Montserrat';
+        font-size: 148px;
+        font-weight: 900;
+        }
+    }
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .error {
+        font-size: 96px;
+    }
+    .text {
+        font-size: 18px;
+    }
+}

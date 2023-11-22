@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: 'Inter';
+    font-weight: 700;
 }
 
 .noTitleList {
@@ -16,6 +18,7 @@
     font-size: 16px;
     font-weight: 400;
 }
+
 .topLink{
     margin-top: 10px;
 }
@@ -33,7 +36,16 @@
 }
 
 @media screen and (max-width: 500px) {
+    .navList{
+        font-size: 12px;
+        letter-spacing: 0.05rem;
+        gap: 5px;
+    }
     .navList:nth-child(2), .navList:nth-child(3) {
         max-width: 125px;
+    }
+    .linkText {
+        font-size: 14px;
+        letter-spacing: 0;
     }
 }

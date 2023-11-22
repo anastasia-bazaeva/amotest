@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# Работа с версткой по макету WELBEX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ССЫЛКА НА ДЕМО
 
-Currently, two official plugins are available:
+### Работа выполнена на базе: 
+- Vite
+- React
+- Typescrypt
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Проект представляет собой одностраничный документ, однако в нем уже на этапе макета размещено множество ссылок в header и footer, поэтому закладываю возможность перемещения по ссылкам. Для этого к проекту подключен роутер, главная страница вызывается по корневому роуту. В проекте также есть специальный layout, который позволит отрендерить другие страницы внутри блока main, оставляя неизменными header и footer, а также есть кастомная страница 404 для несуществующего роута.
+Также в проекте не предусмотрено никаких кнопок, кроме одной, но учитывая множество заложенных, но отстутсвующих в макете роутов, элемент кнопки закладываю переиспользуемым для разных целей с различными типами - button, submit, reset
